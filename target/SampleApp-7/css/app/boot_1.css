@@ -1,0 +1,109 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color:#f5f5f5
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.page-header {
+  #padding-bottom: 5px !important;
+  #margin: -9px 0 20px !important;
+  #border-bottom: 0px solid #eee !important;
+}
+
+
+.gnavbar{
+  background-color: #D8D8D8;
+  border-color: #e7e7e7;
+  border: 1px solid floralwhite;
+  margin-top: -22px;
+}
+
+.btn-default1{
+background-color: #FF1313 !important;
+color:#fff;
+}
+
+
+.btn-default2 {
+  color: #333;
+  background-color: #443939;
+  border-color: #ccc;
+}
+
+.btn-default1{
+background-color: #FF1313 !important;
+color:#fff;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFFFFF !important;
+  font-size:14px;
+}
+.s_casedetails{
+  font-size: 81% !important;  
+  margin: -10px !important;
+  }
+  
+ #.gbuttonm {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.gbutton {
+  background-color: grey;
+  color: White;
+}
+
+.th1 {
+  display: table-cell;
+  vertical-align: inherit;
+  width:20px;
+}
+
+
+@media screen and (min-width: 960px) {
+  .drs {
+    padding: 351px;
+	#font-size:3000px;
+  }
+}
+
+/*
+Item Master Add
+  */
+
+ .itemhead{
+ text-align:"center";
+ font-size:30px;
+ color: #333;
+  background-color: #443939;
+ }

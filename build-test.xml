@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="tomcat-demo" default="" basedir=".">
+
+	<!--  <property name="project-name" value="${ant.project.name}" />
+	<property file="../ant-utilities/build-main.properties" /> LLPP721 -->
+	<import file="build.xml" />
+	  <target name="junit" depends="compile" description="run all unit tests">
+	      <mkdir dir="${reports}"/>
+	      <junit haltonfailure="false">
+	         <jvmarg value="-Xms128m"/>
+	         <jvmarg value="-Xmx128m"/>
+	         <classpath>
+	            <path refid="compile.classpath"/>
+	         </classpath>
+	         <formatter type="xml"/>
+	         <batchtest fork="yes" todir="${reports}">
+	            <fileset dir="src/test">
+	                <include name="**/*Test*.class"/>
+	            </fileset>
+	         </batchtest>
+	      </junit>
+	  </target>
+
+	  <target name="generate-reports" depends="junit" description="create JUnit test HTML reports">
+	      <mkdir dir="reports"/>
+	      <junitreport todir="${reports}">
+	          <fileset dir="${reports}">
+	              <include name="TEST-*.xml"/>
+	          </fileset>
+	          <report format="frames" todir="${reports}"/>
+	      </junitreport>
+	  </target>
+
+</project>

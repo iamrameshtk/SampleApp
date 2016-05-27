@@ -1,0 +1,123 @@
+@CHARSET "ISO-8859-1";
+/*Kola Balaji */
+body {
+  
+  border-color: #e7e7e7
+}
+.gnav{
+	color:white;
+	background-color: #FC4510 !important;
+}
+.glink{
+	color:white;
+	text-decoration: none;
+}
+.gimage
+{
+	-moz-border-radius: 30px; /* FF1+ */
+	-webkit-border-radius: 30px; /* Saf3-4 */
+	border-radius: 30px; /* Opera 10.5, IE 9, Saf5, Chrome */
+}
+.gtcontent{
+	color:#2E64FE;
+}
+.gtdata{
+	color:black;
+}
+.gbuttonm
+{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.gbox{
+     width: 25px;
+  height: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.gbox1{
+background-color: white;
+color:#102EFC !important;
+text-align: left;
+}
+.gbutton{
+background-color:grey;
+color:White;
+}
+
+.gmenuright{
+	margin:2px 2px 2px 2px;
+	background-color:lightgray;
+	padding:7px;
+	color:darkblue;	
+}
+.gmenuleft{
+	#margin:2px 2px 2px 2px;
+	background-color:lightgray;
+	padding:7px;
+	color:darkblue;	
+	width:99px;
+}
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+/*bootstrap overriden */
+
+.navbar-default1 {
+background-color: none;
+border-color:none !important;
+}
+textarea:focus, input:focus{
+    outline: 0;
+}
+*:focus {
+    outline: 0;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 0px solid #ddd
+}
+
+.gnavbar{
+  background-color: #D8D8D8;
+  border-color: #e7e7e7;
+  border: 1px solid floralwhite;
+  margin-top: -22px;
+}
+
+.hr {
+     color: red;
+     background:red; 
+     width:200px;
+     height: 5px;
+}
+
+
+.gboxright{
+   width: 199px;
+  height: auto;
+  margin-left: -6px;
+  padding: 5px;
+  }
+  
+ .grtalign{
+  text-align:left;
+  }
+  
+  
+  .page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 0px solid #eee;
+  }
+  
+  

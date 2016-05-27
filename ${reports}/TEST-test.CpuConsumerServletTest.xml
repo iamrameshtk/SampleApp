@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="MYSCISWIN-1111" name="test.CpuConsumerServletTest" tests="1" time="0.118" timestamp="2015-12-02T09:59:34">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sonar.projectName" value="Simple Java Project analyzed with the SonarQube Ant Task" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows Server 2008 R2" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_05\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_05\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="D:\TI Demo\apache-ant-1.8.2-bin\apache-ant-1.8.2" />
+    <property name="sonar.projectVersion" value="1.0" />
+    <property name="java.runtime.version" value="1.7.0_05-b05" />
+    <property name="ant.file.type.SampleApp" value="file" />
+    <property name="sonar.jdbc.password" value="sonar" />
+    <property name="user.name" value="181056" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_05\jre\bin" />
+    <property name="ant.project.default-target" value="war" />
+    <property name="ant.project.name" value="SampleApp" />
+    <property name="java.version" value="1.7.0_05" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="sonar.host.url" value="http://localhost:9000/sonar" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_05\jre\lib\endorsed" />
+    <property name="sonar.jdbc.username" value="sonar" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="sonar.sources" value="src" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_05\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="D:\TI Demo\GitRepo\NewRepo\SampleApp\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="23.1-b03" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="D:\TI Demo\apache-ant-1.8.2-bin\apache-ant-1.8.2\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\181056" />
+    <property name="sonar.binaries" value="build/classes" />
+    <property name="sonar.language" value="java" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_05\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_05/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;D:\TI Demo\apache-maven-3.1.0-bin\apache-maven-3.1.0\bin;D:\TI Demo\apache-ant-1.8.2-bin\apache-ant-1.8.2\bin;C:\Program Files\Java\jdk1.7.0_05\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\CloudFoundry;C:\Program Files\cURL\bin;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.CpuConsumerServletTest filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\TI Demo\GitRepo\NewRepo\SampleApp\${reports}\TEST-test.CpuConsumerServletTest.xml crashfile=D:\TI Demo\GitRepo\NewRepo\SampleApp\junitvmwatcher1846344623026704916.properties propsfile=D:\TI Demo\GitRepo\NewRepo\SampleApp\junit3873467189667569836.properties" />
+    <property name="java.class.path" value="D:\TI Demo\GitRepo\NewRepo\SampleApp\WebContent\WEB-INF\lib\javax.servlet-3.0.jar;D:\TI Demo\GitRepo\NewRepo\SampleApp\WebContent\WEB-INF\lib\javax.servlet.jsp.jstl-api-1.2.1.jar;D:\TI Demo\GitRepo\NewRepo\SampleApp\WebContent\WEB-INF\lib\jstl-1.2.jar;D:\TI Demo\GitRepo\NewRepo\SampleApp\WebContent\WEB-INF\lib\junit-4.8.1.jar;D:\TI Demo\GitRepo\NewRepo\SampleApp\WebContent\WEB-INF\lib\mysql-5.1.10.jar;D:\TI Demo\GitRepo\NewRepo\SampleApp\build\classes;D:\TI Demo\GitRepo\NewRepo\SampleApp\build\classes\test;D:\TI Demo\apache-ant-1.8.2-bin\apache-ant-1.8.2\lib\ant-launcher.jar;D:\TI Demo\apache-ant-1.8.2-bin\apache-ant-1.8.2\lib\ant.jar;D:\TI Demo\apache-ant-1.8.2-bin\apache-ant-1.8.2\lib\ant-junit.jar;D:\TI Demo\apache-ant-1.8.2-bin\apache-ant-1.8.2\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.io.tmpdir" value="C:\Users\181056\AppData\Local\Temp\" />
+    <property name="sonar.jdbc.url" value="jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;characterEncoding=utf8" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_05\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="D:\TI Demo\GitRepo\NewRepo\SampleApp" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="D:\TI Demo\GitRepo\NewRepo\SampleApp" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="D:\TI Demo\apache-ant-1.8.2-bin\apache-ant-1.8.2\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="ant.file.SampleApp" value="D:\TI Demo\GitRepo\NewRepo\SampleApp\build.xml" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="junit,generate-reports" />
+    <property name="sonar.projectKey" value="org.codehaus.sonar:example-java-ant" />
+  </properties>
+  <testcase classname="test.CpuConsumerServletTest" name="testCpuConsumerServlet" time="0.024" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[java.io.IOException: The system cannot find the path specified
+	at java.io.WinNTFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:947)
+	at servlets.CpuConsumerServlet.cpuConsumes(CpuConsumerServlet.java:81)
+	at test.CpuConsumerServletTest.testCpuConsumerServlet(CpuConsumerServletTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:76)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:39)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:518)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1052)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:906)
+]]></system-err>
+</testsuite>
