@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--Change the project path -->
-<project name="SampleApp" default="war" basedir="C://Users//ramesh.k01//Desktop//demo_1//SampleApp" xmlns:sonar="antlib:org.sonar.ant">
+<project name="SampleApp" default="war" basedir="." xmlns:sonar="antlib:org.sonar.ant">
 
        <path id="compile.classpath">
               <fileset dir="WebContent/WEB-INF/lib">
