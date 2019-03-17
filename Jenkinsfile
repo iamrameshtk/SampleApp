@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent 'centOS-Slave'
     environment {
         branch = 'master'
         scmUrl = 'https://github.com/iamrameshtk/SampleApp.git'
