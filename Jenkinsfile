@@ -7,13 +7,12 @@ pipeline {
     environment {
         branch = 'master'
         scmUrl = 'https://github.com/iamrameshtk/SampleApp.git'
-	creds =  '6051c243892564009631c90304b73f74ffae2b3c'
         serverPort = '8080'
     }
     stages {
         stage('checkout git') {
              steps {
-             git branch: branch, credentialsId: 'creds', url: scmUrl
+             git branch: branch, url: scmUrl
                   }
 			}
         stage('build') {
