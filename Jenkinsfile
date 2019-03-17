@@ -11,8 +11,7 @@ pipeline {
                 git branch: branch, credentialsId: 'GitCredentials', url: scmUrl
             }
         }
-
-        stage('build') {
+   stage('build') {
             steps {
                 sh 'mvn clean package -DskipTests=true'
             }
@@ -20,6 +19,7 @@ pipeline {
     post {
         failure {
             mail to: 'rameshkasinath08@gmail.com', subject: 'Pipeline failed', body: "${env.BUILD_URL}"
+         }
         }
     }
 }
