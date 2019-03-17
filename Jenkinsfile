@@ -17,7 +17,7 @@ pipeline {
 			}
         stage('build') {
               steps {
-              sh 'mvn clean package -DskipTests=true'
+              sh 'mvn clean package -DskipTests=true -DnewVersion=$BUILD_NUMBER'
                     }
 			}
 		}	
