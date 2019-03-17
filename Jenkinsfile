@@ -5,7 +5,7 @@ pipeline {
         scmUrl = 'https://github.com/iamrameshtk/SampleApp.git'
         serverPort = '8080'
         }
-    stages {
+    stage {
         stage('checkout git') {
             steps {
                 git branch: branch, credentialsId: 'GitCredentials', url: scmUrl
