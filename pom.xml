@@ -3,7 +3,6 @@
   <groupId>SampleApp</groupId>
   <artifactId>SampleApp</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <classifier>${BUILD_NUMBER}</classifier>
   <packaging>war</packaging>
   <dependencies>
   <dependency>
