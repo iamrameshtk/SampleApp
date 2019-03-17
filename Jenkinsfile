@@ -17,8 +17,6 @@ pipeline {
 			}
         stage('build') {
               steps {
-		      def buildNUm = "${env.BUILD_NUMBER}"
-		      echo 'buildNum'
 		      sh 'mvn clean package -DskipTests=true'
                     }
 			}
