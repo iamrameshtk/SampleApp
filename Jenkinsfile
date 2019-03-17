@@ -22,7 +22,11 @@ pipeline {
 			}
 		}	
 post {
-    failure {
+    	success {
+		echo 'Sending failure Notification'	
+		mail to: 'rameshkasinath08@gmail.com', subject: 'Pipeline Success', body: "${env.BUILD_URL}"
+           	 }
+	failure {
 		echo 'Sending failure Notification'	
 		mail to: 'rameshkasinath08@gmail.com', subject: 'Pipeline failed', body: "${env.BUILD_URL}"
             }
