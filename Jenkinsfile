@@ -1,19 +1,34 @@
-node {
-   def mvnHome
-   stage('Preparation') { // for display purposes
-      // Get some code from a GitHub repository
-      git 'https://github.com/iamrameshtk/SampleApp.git'
-      // Get the Maven tool.
-      // ** NOTE: This 'M3' Maven tool must be configured
-      // **       in the global configuration.           
-      mvnHome = tool 'MAVEN'
-   }
-   stage('Build') {
-      // Run the maven build
-      if (isUnix()) {
-         sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore clean package"
-      } else {
-         bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean package/)
-      }
-   }
-}
+pipeline {
+    agent centOs-Slave
+    environment {
+        branch = 'master'
+        scmUrl = 'https://github.com/iamrameshtk/SampleApp.git'
+        serverPort = '8080'
+        }
+    stages {
+        stage('checkout git') {
+            steps {
+                git branch: branch, credentialsId: 'GitCredentials', url: scmUrl
+            }
+        }
+
+        stage('build') {
+            steps {
+                sh 'mvn clean package -DskipTests=true'
+            }
+        }
+
+        stage ('test') {
+            steps {
+                parallel (
+                    "unit tests": { sh 'mvn test' },
+                    "integration tests": { sh 'mvn integration-test' }
+                )
+            }
+        }
+    }
+    post {
+        failure {
+            mail to: 'rameshkasinath08@gmail.com', subject: 'Pipeline failed', body: "${env.BUILD_URL}"
+        }
+    }
