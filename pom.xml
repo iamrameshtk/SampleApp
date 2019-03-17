@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>SampleApp</groupId>
   <artifactId>SampleApp</artifactId>
-  <version>1.0-SNAPSHOT-$BUILD_NUMBER</version>
+  <version>1.0-SNAPSHOT-${newVersion}</version>
   <packaging>war</packaging>
   <dependencies>
   <dependency>
