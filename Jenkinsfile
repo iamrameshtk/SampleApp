@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('checkout git') {
              steps {
-             git branch: branch, credentialsId: 'GitCredentials', url: scmUrl
+             git branch: branch, url: scmUrl
                   }
 			}
         stage('build') {
