@@ -19,8 +19,7 @@ pipeline {
 post {
     failure {
     mail to: 'rameshkasinath08@gmail.com', subject: 'Pipeline failed', body: "${env.BUILD_URL}"
-             }
-        }
+            }
+     }
     }
-}
 }
