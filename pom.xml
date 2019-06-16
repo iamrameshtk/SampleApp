@@ -6,7 +6,8 @@
   <packaging>war</packaging>
   <dependencies>
   <dependency>
-  <groupId>junit</groupId>     <!-- NOT org.junit here -->
+  <groupId>junit</groupId>     
+	  <!-- NOT org.junit here -->
   <artifactId>junit-dep</artifactId>
   <version>4.8.2</version>
   </dependency>
