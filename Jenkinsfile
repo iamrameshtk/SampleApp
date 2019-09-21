@@ -24,11 +24,11 @@ pipeline {
 post {
     	success {
 		echo 'Sending Success Notification'	
-		mail to: 'rameshkasinath08@gmail.com', subject: 'Pipeline Success', body: "${env.BUILD_URL}"
+		mail to: 'rameshkasinath08@gmail.com','uddinsk9@gmail.com', subject: 'Pipeline Success', body: "${env.BUILD_URL}"
            	 }
 	failure {
 		echo 'Sending failure Notification'	
-		mail to: 'rameshkasinath08@gmail.com', subject: 'Pipeline failed', body: "${env.BUILD_URL}"
+		mail to: 'rameshkasinath08@gmail.com','uddinsk9@gmail.com', subject: 'Pipeline failed', body: "${env.BUILD_URL}"
             }
      }
 }
